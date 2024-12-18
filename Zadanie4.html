@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Zadanie 4
+    </title>
+</head>
+<body>
+    <script>
+        var Name = prompt("Введите ваше имя:");
+        var birthYear = prompt("Введите год рождения:");
+        let currentYear = new Date().getFullYear();
+        let age = currentYear - parseInt(birthYear);
+        document.write("<p>" + Name + ": " + age + "</p>");
+    </script>
+</body>
+</html>
+
